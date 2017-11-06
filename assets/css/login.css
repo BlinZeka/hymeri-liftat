@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+/* <style type="text/css"> */
+
+/*
+The Design Firm: bbros.in
+Date: Month, 2013.
+*/
+
+/*//////////////////////////////Global Settings */
+
+body 				{
+					margin:0;
+					padding: 0;
+					background: #fff;
+					font-family: 'Lato', sans-serif;
+					background-image: linear-gradient(bottom, rgb(251,251,251) 7%, rgb(243,243,243) 54%, rgb(251,251,251) 77%);
+					background-image: -o-linear-gradient(bottom, rgb(251,251,251) 7%, rgb(243,243,243) 54%, rgb(251,251,251) 77%);
+					background-image: -moz-linear-gradient(bottom, rgb(251,251,251) 7%, rgb(243,243,243) 54%, rgb(251,251,251) 77%);
+					background-image: -webkit-linear-gradient(bottom, rgb(251,251,251) 7%, rgb(243,243,243) 54%, rgb(251,251,251) 77%);
+					background-image: -ms-linear-gradient(bottom, rgb(251,251,251) 7%, rgb(243,243,243) 54%, rgb(251,251,251) 77%);
+					
+					background-image: -webkit-gradient(
+						linear,
+						left bottom,
+						left top,
+						color-stop(0.07, rgb(251,251,251)),
+						color-stop(0.54, rgb(243,243,243)),
+						color-stop(0.77, rgb(251,251,251))
+					);
+					
+					}
+
+html *				{ 
+					padding:0;
+					margin:0;
+					}
+					
+* a					{text-decoration: none;}
+a:active,
+a:hover 			{outline: none;}
+
+a:focus 			{-moz-outline-style: none;outline: none;}
+
+/* Change Text Highlight Color */
+::selection      { background: #ffcb08; color:#fff; /* Safari and Opera */ }
+::-moz-selection  { background: #ffcb08; color:#fff; /* Firefox */ }
+
+/* Remove Safari/Chrome textinput/textarea glow*/
+
+textarea, input { outline: none; }
+
+/* Removing The Dotted Outline*/
+a {
+	outline:none;
+}
+/* Removing IE img border*/
+img {
+	border: none;
+}
+
+/* IE6 Only */
+* html #rightcolumn{
+margin-left: 20px;
+}
+
+
+/*///////////////////////////////build up*/
+
+.login_container {
+	width: 444px;
+	height: 100%;
+	color: #7c7a7b;
+/* 	background: #fff; */
+	margin: 0 auto;
+	position: relative;
+}
+
+.header_logo {
+	width: 188px;
+	height: 190px;
+	margin: auto;
+/* 	background: url(../images/logo_red.png) no-repeat; */
+	background: #2C567E;
+	position: relative;
+	border-bottom: 3px solid #FFCB08;
+}
+
+.login_info {
+	height: auto;
+	font-size: 17px;
+	line-height: 20px;
+	text-align: center;
+	padding: 25px 10px;
+}
+
+.usern_pass_container {
+	width: 386px;
+	height: auto /* 257px */;
+	margin-left: 29px;
+}
+
+.remember_me_forget {
+	width: 100%;
+	height: 25px;
+}
+
+.reset_pass {
+	width: auto;
+	height: 25px;
+	float: right;
+	text-align: right;
+}
+
+.reset_pass a {
+	color: #7C7A7B;	
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	padding: 20px;
+	position: absolute;
+	bottom: 1px;
+}
